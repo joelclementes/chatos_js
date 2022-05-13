@@ -1,0 +1,16 @@
+body{
+    background: #bbbbbb;
+    color:#555;
+}
+h1{
+    color:#000;
+}
+h2{
+    text-align: center;
+    /* color: #fff; */
+}
+
+.list-group{
+    height: 70vh;
+    /* overflow: auto; */
+}
