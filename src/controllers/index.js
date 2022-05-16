@@ -1,9 +1,9 @@
 import Home from './home.controller';
-import Productos from './productos.controller';
+import Calcular from './calcular.controller';
 import notFound from './404.controller';
 const pages = {
     home: Home,
-    productos: Productos,
+    calcular: Calcular,
     notFound: notFound
 }
 

@@ -7,8 +7,8 @@ const router = async (route) =>{
             return content.appendChild(pages.home());
         }
 
-        case '#/productos':
-            return content.appendChild(await pages.productos());
+        case '#/calcular':
+            return content.appendChild(await pages.calcular());
         default:
             return content.appendChild(pages.notFound());
     }
